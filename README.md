@@ -58,6 +58,11 @@ The encryption scheme introduces an additional stage, enhancing the security of 
 
 ## Getting Started
 
-To explore and implement this image encryption and decryption algorithm, refer to the code provided in the repository. The encryption and decryption processes are well-documented, providing clarity on each step.
+To explore and implement this image encryption and decryption algorithm, refer to the code provided in the repository. 
+##Find the list of codes:
 
+1. **computedft.m** - Computes the Discrete Fourier Transform (DFT) of an image.
+2. **noisecreate.m** - Adds Gaussian noise with given mean and standard deviation to an image.
+3. **denoisework.m** - Denoises an image using a Finite Impulse Response (FIR) Blackman window filter.
+4. **encryption.m** - Encrypts and decrypts the image using DFT and bitwise XOR, ensuring two-stage security.
 

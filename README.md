@@ -46,6 +46,12 @@ To achieve a clear image, we start by denoising input images containing various 
 2. **IDFT (Inverse Discrete Fourier Transform):**
    - Obtain the IDFT of the resulting matrices to decrypt and generate the final image "Y."
 
+     
+<p align="center">
+  <img src="encyrp.png" alt="Image 1"  height = "300" />
+</p>
+
+
 ### Security
 
 The encryption scheme introduces an additional stage, enhancing the security of the process. The decryption process requires the correct key to obtain the original image.

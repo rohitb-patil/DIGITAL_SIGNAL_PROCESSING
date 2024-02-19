@@ -59,3 +59,5 @@ The encryption scheme introduces an additional stage, enhancing the security of 
 ## Getting Started
 
 To explore and implement this image encryption and decryption algorithm, refer to the code provided in the repository. The encryption and decryption processes are well-documented, providing clarity on each step.
+
+

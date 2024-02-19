@@ -30,6 +30,10 @@ To achieve a clear image, we start by denoising input images containing various 
 
 2. **2D-DFT (Discrete Fourier Transform):**
    - Apply 2D-DFT to the denoised image "Q" to obtain magnitude and phase matrices.
+  
+      <p align="center">
+       <img src="dft.png" alt="Image 1" width = "500" height = "300" />
+          </p>
 
 3. **Bitwise XOR with Random Matrix:**
    - Bitwise XOR the magnitude and phase matrices with a random matrix "A" to generate an encrypted image "R."

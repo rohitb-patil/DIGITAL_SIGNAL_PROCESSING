@@ -19,6 +19,14 @@ To achieve a clear image, we start by denoising input images containing various 
 
 1. **Denoising:**
    - Apply digital filters to input image "P" to obtain denoised image "Q."
+  
+<p align="center">
+  <img src="noisyimage.jpg" alt="Noisy Image" width="200" height = "200"style="display:inline-block; margin-right:10px;"/>
+  <img src="denoisedimage.png" alt="Denoised Image" width="200" height = "200" style="display:inline-block;"/>
+</p>
+
+
+
 
 2. **2D-DFT (Discrete Fourier Transform):**
    - Apply 2D-DFT to the denoised image "Q" to obtain magnitude and phase matrices.
